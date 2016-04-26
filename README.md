@@ -1,2 +1,13 @@
-# programacao-de-computadores
-Atividades da disciplina de Programação de Computadores do curso de TADS 2016.1 do IFRN
+# Programação de Computadores
+
+**Curso: ** Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)
+
+**Período: ** 2016.1
+
+**Professor: ** [Leonardo Lucena](https://github.com/lrlucena)
+
+**Instituição: ** IFRN - Campus Natal Central
+
+
+## Aulas
+- Aula 4 | [Atividade](/atividades/aula-4)
