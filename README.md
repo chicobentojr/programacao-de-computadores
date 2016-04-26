@@ -1,12 +1,12 @@
 # Programação de Computadores
 
-**Curso: ** Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)
+**Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)
 
-**Período: ** 2016.1
+**Período:** 2016.1
 
-**Professor: ** [Leonardo Lucena](https://github.com/lrlucena)
+**Professor:** [Leonardo Lucena](https://github.com/lrlucena)
 
-**Instituição: ** IFRN - Campus Natal Central
+**Instituição:** IFRN - Campus Natal Central
 
 
 ## Aulas
