@@ -11,3 +11,4 @@
 
 ## Aulas
 - Aula 4 | [Atividade](/atividades/aula-4)
+- Aula 5 | [Atividade](/atividades/aula-5)
