@@ -10,5 +10,5 @@
 
 
 ## Aulas
-- Aula 4 | [Atividade](/atividades/aula-4)
-- Aula 5 | [Atividade](/atividades/aula-5)
+- Aula 04 | [Atividade](/atividades/aula-04)
+- Aula 05 | [Atividade](/atividades/aula-05)
