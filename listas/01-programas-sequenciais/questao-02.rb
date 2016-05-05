@@ -1,0 +1,10 @@
+puts "Alagoas"
+puts "Bahia"
+puts "Ceara"
+puts "Maranhao"
+puts "Paraiba"
+puts "Pernambuco"
+puts "Piaui"
+puts "Rio grande do norte"
+puts "Sergipe"
+

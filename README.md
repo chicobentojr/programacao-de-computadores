@@ -11,4 +11,7 @@
 
 ## Aulas
 - Aula 04 | [Atividade](/atividades/aula-04)
-- Aula 05 | [Atividade](/atividades/aula-05)
+
+## Listas
+- 00 - Aquecimento | [Respostas](/listas/00-aquecimento)
+- 01 - Programas Sequenciais | [Respostas](/listas/01-programas-sequenciais)
