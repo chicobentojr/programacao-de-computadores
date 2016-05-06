@@ -1,6 +1,6 @@
 valor = gets.to_f
-impostos = (valor*0.18) + (valor*0.13) + (valor*0.014) + (valor*0.076)
-valor_sem_imposto = valor - impostos
+impostos = 0.18 + 0.13 + 0.014 + 0.076
+valor_sem_imposto = valor / (1 + impostos)
 puts "ICMS: %.2f" % (valor_sem_imposto*0.18)
 puts "IPI: %.2f" % (valor_sem_imposto*0.13)
 puts "PIS: %.2f" % (valor_sem_imposto*0.014)
