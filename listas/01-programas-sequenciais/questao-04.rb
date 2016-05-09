@@ -1,4 +1,4 @@
-puts 22+21
-puts 22-21
-puts 22*21
-puts (22+21)/2
+puts 21+22
+puts 21-22
+puts 21*22
+puts (21+22)/2
