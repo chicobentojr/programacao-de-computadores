@@ -16,3 +16,4 @@
 ## Listas
 - 00 - Aquecimento | [Respostas](/listas/00-aquecimento)
 - 01 - Programas Sequenciais | [Respostas](/listas/01-programas-sequenciais)
+- 04 - Análise e Desenvolvimento de Programas em Ruby | [Respostas](/listas/04-analise-desenvolvimento)
