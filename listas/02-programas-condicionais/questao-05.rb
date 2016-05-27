@@ -1,6 +1,6 @@
 n1, n2 = gets.to_f, gets.to_f
 if !(n1 >= 0.0 and n1 <= 10.0 and n2 >= 0.0 and n2 <= 10.0)
-  puts "Invalida"
+  puts "INVALIDA"
 else
   media = ((n1*2)+(n2*3))/5
   situacao = "REPROVADO"
