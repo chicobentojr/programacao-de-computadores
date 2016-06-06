@@ -12,6 +12,7 @@
 ## Aulas
 - Aula 04 | [Atividade](/atividades/aula-04)
 - Aula 06 | [Atividade](/atividades/aula-06)
+- Aula 09 | [Atividade](/atividades/aula-09)
 
 ## Listas
 - [00 - Aquecimento](/listas/00-aquecimento/00-aquecimento.pdf) | [Respostas](/listas/00-aquecimento)
