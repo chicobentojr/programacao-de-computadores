@@ -8,7 +8,7 @@ if dia == 1
   elsif mes == 3
     mes -= 1
     dia = 28
-  elsif mes == 4 or mes == 6 or mes == 9 or mes == 11
+  elsif mes == 5 or mes == 7 or mes == 10 or mes == 12
     dia = 30
     mes -= 1
   else
