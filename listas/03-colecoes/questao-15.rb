@@ -46,6 +46,5 @@ for letra in frase do
     resultado.push(letra)
   end
 end
-resultado[0] = resultado[0].upcase
 
 puts resultado.join("")

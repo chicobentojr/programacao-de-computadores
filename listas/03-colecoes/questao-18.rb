@@ -1,7 +1,8 @@
-nomes = 50.times.map do gets.chomp end
-retorno = []
-for nome in nomes do
-  palavras = nome.split()
-  retorno.push((palavras[0][0] + palavras[palavras.size - 1][0]).upcase)
+frase = gets.chomp.split("")
+caractere = gets.chomp
+qte = 0
+for letra in frase do
+  qte += 1 if caractere.upcase == letra.upcase
 end
-puts retorno.sort
+
+puts qte
