@@ -21,5 +21,6 @@
 - 03 - Coleções | [Lista](/listas/03-colecoes/03-colecoes.pdf) | [Respostas](/listas/03-colecoes)
 - 04 - Laços | [Lista](/listas/04-lacos/04-lacos.pdf) | [Respostas](/listas/04-lacos)
 
+-------------------------
 
 - `Lista Gilbert` 04 - Análise e Desenvolvimento de Programas em Ruby | [Lista](/listas/gilbert-04-analise-desenvolvimento/04-analise-desenvolvimento.pdf) | [Respostas](/listas/gilbert-04-analise-desenvolvimento)
