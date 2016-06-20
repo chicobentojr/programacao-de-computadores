@@ -1,8 +1,10 @@
-frase = gets.chomp.gsub(" ", "")
-                  .gsub(",","")
-                  .gsub("-", "")
-                  .gsub(".", "")
-                  .gsub("?", "")
-                  .gsub("_", "")
-                  .gsub("!", "").downcase
-puts "PALINDROMO" if frase == frase.reverse
+frase  = gets.chomp.upcase
+texto = []
+
+for letra in frase.split("")
+  if ('A'..'Z').include? letra
+    texto.push(letra)
+  end
+end
+
+puts "PALINDROMO" if texto == texto.reverse
