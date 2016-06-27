@@ -5,6 +5,21 @@ resultado = num
 
 while resultado != 1
   dividiu = false
+  e_primo = true
+
+  for x in 2..resultado-1
+    if resultado % x == 0 and x != 1 and x != resultado
+      e_primo = false
+      break
+    end
+  end
+
+  if e_primo
+    decompositores.push(resultado)
+    resultado = 1
+    break
+  end
+
   for primo in primos
     if resultado % primo == 0
       resultado = resultado / primo

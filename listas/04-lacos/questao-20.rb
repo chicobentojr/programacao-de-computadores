@@ -14,7 +14,7 @@ for i in 0..array.size - 1
     x = array[i]
     array[i] = array[indice_menor]
     array[indice_menor] = x
-    puts "#{i},#{indice_menor} (#{array[indice_menor]}, #{array[i]})"
+    puts "#{i},#{indice_menor} (#{array[indice_menor]},#{array[i]})"
   end
 end
 

@@ -1,11 +1,11 @@
 tempo = gets.to_i
-inicio = gets.to_i
+inicio = gets.to_f
 massa_final = inicio.to_f
 duracao = 0
 
 while massa_final >= 0.5
   duracao += tempo
-  massa_final /= 2
+  massa_final /= 2.0
 end
 
 h = duracao / 3600

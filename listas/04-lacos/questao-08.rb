@@ -1,10 +1,11 @@
 a, b = gets.to_i, gets.to_i
 soma = 0
 
-if b > a
+if b < a
   c = b
   b = a
   a = c
+end
 
 for x in a..b
   soma+= x
