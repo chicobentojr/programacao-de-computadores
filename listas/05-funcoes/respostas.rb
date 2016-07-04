@@ -157,10 +157,15 @@ end
 def sublista_ordenada(a)
   maior = []
   atual = []
-  for index in 0..a.size-1
-    if index == 0
-      atual.push(a[index])
-    elsif index == a.size - 1
+  for n in a
+    if atual.size > 0
+      if atual[-1] < n
+        atual.push(n)
+      else
+      	atual = [n]
+      end
+    else
+      atual.push(n)
     end
     if atual.size > maior.size
       maior = atual
@@ -171,20 +176,85 @@ end
 
 #Questao 17
 def triangular_superior? (matriz)
-
+  index = 0
+  for linha in 1..matriz.size - 1
+    for coluna in 0..index
+      return false if matriz[linha][coluna] != 0
+    end
+  end
+  return true
 end
 
 #Questao 18
 def massa_molecula (molecula)
+  massa = 0
+  ult_atomo = ''
+  ult_quant = ''
+  for item in molecula.split("")
+    if ('0'..'9').include?(item)
+      ult_quant+= item
+    elsif ult_atomo.size > 0
+      peso = 16 if ult_atomo == 'O'
+      peso = 1  if ult_atomo == 'H'
+      peso = 12 if ult_atomo == 'C'
+      qte = ult_quant.size > 0 ? ult_quant.to_i : 1
 
+      massa += peso * qte
+
+      ult_atomo = item
+      ult_quant = ''
+      peso = 0
+    else
+      ult_atomo = item
+    end
+  end
+
+  qte = ult_quant.size > 0 ? ult_quant.to_i : 1
+  peso = 16 if ult_atomo == 'O'
+  peso = 1  if ult_atomo == 'H'
+  peso = 12 if ult_atomo == 'C'
+  massa += peso * qte
+
+  return massa
 end
 
 #Questao 19
 def quadrado_magico? (matriz)
-
+  if matriz.is_a?(Array) and matriz[0].is_a?(Array) and matriz.size == matriz[0].size
+    soma_pri = 0
+    soma_sec = 0
+    soma_lin = Array.new(matriz.size, 0)
+    soma_col = Array.new(matriz.size, 0)
+    for linha in 0..matriz.size - 1
+      for coluna in 0..matriz[linha].size - 1
+        item = matriz[linha][coluna]
+        if item.is_a?(Integer)
+          soma_pri += item if linha == coluna
+          soma_sec += item if matriz[linha].size - 1 - linha == coluna
+          soma_lin[linha] += item
+          soma_col[coluna] += item
+        else
+          return false
+        end
+      end
+    end
+    soma_lin = soma_lin.uniq
+    soma_col = soma_col.uniq
+    if soma_pri == soma_sec and soma_pri == soma_lin.uniq[0] and soma_pri == soma_col.uniq[0] and soma_lin.size == 1 and soma_col.size == 1
+    	return true
+    end
+  else
+    return false
+  end
 end
 
 #Questao 20
 def move_direita(labirinto)
-
+  for linha in 0..labirinto.size - 1
+    for coluna in 0..linha.size - 1
+      item = labirinto[linha][coluna]
+      return true if item == '*' and coluna < linha.size - 1 and labirinto[linha][coluna+1] == ' '
+    end
+  end
+  return false
 end
