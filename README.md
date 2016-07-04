@@ -20,6 +20,7 @@
 - 02 - Programas Condicionais | [Lista](/listas/02-programas-condicionais/02-programas-condicionais.pdf) | [Respostas](/listas/02-programas-condicionais)
 - 03 - Coleções | [Lista](/listas/03-colecoes/03-colecoes.pdf) | [Respostas](/listas/03-colecoes)
 - 04 - Laços | [Lista](/listas/04-lacos/04-lacos.pdf) | [Respostas](/listas/04-lacos)
+- 05 - Funções | [Lista](/listas/05-funcoes/05-funcoes.pdf) | [Respostas](/listas/05-funcoes)
 
 -------------------------
 
