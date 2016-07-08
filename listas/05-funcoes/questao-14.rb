@@ -1,6 +1,6 @@
 def transcreve_numero (telefone)
   numeros = []
-  for n in telefone.split
+  for n in telefone.split("")
     numeros.push("um") if n == '1' or n == 1
     numeros.push("dois") if n == '2' or n == 2
     numeros.push("tres") if n == '3' or n == 3
