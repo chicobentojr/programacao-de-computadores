@@ -4,17 +4,22 @@ def quadrado_magico? (matriz)
     soma_sec = 0
     soma_lin = Array.new(matriz.size, 0)
     soma_col = Array.new(matriz.size, 0)
+    qte_elemento = matriz.size
     for linha in 0..matriz.size - 1
-      for coluna in 0..matriz[linha].size - 1
-        item = matriz[linha][coluna]
-        if item.is_a?(Integer)
-          soma_pri += item if linha == coluna
-          soma_sec += item if matriz[linha].size - 1 - linha == coluna
-          soma_lin[linha] += item
-          soma_col[coluna] += item
-        else
-          return false
+      if matriz[linha].size == qte_elemento
+        for coluna in 0..matriz[linha].size - 1
+          item = matriz[linha][coluna]
+          if item.is_a?(Integer)
+            soma_pri += item if linha == coluna
+            soma_sec += item if matriz[linha].size - 1 - linha == coluna
+            soma_lin[linha] += item
+            soma_col[coluna] += item
+          else
+            return false
+          end
         end
+      else
+        return false
       end
     end
     soma_lin = soma_lin.uniq
