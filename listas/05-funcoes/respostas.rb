@@ -233,6 +233,7 @@ def quadrado_magico? (matriz)
     soma_col = Array.new(matriz.size, 0)
     qte_elemento = matriz.size
     for linha in 0..matriz.size - 1
+      return false if !matriz[linha].is_a?(Array)
       if matriz[linha].size == qte_elemento
         for coluna in 0..matriz[linha].size - 1
           item = matriz[linha][coluna]
