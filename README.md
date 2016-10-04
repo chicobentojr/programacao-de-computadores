@@ -1,13 +1,12 @@
 # Programação de Computadores
 
+**Instituição:** IFRN - Campus Natal Central
+
 **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)
 
 **Período:** 2016.1
 
 **Professor:** [Leonardo Lucena](https://github.com/lrlucena)
-
-**Instituição:** IFRN - Campus Natal Central
-
 
 ## Aulas
 - Aula 04 | [Atividade](/atividades/aula-04)
